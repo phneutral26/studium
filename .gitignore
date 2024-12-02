@@ -1,0 +1,6 @@
+Zone.Identifier
+*.exe
+
+/.vscode
+/.idea
+/.devcontainer
