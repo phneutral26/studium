@@ -1,5 +1,6 @@
 Zone.Identifier
 *.exe
+.DS_Store
 
 /.vscode
 /.idea
