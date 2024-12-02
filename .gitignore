@@ -29,8 +29,8 @@ Zone.Identifier
 *.exe
 .DS_Store
 
-/.vscode
-/.idea
-/.devcontainer
+.vscode/
+.idea/
+.devcontainer/
 
 
