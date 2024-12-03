@@ -12,12 +12,16 @@
 # Ignore files with extension `.class` & `.sm`
 *.class
 *.sm
+*.o
+*.ko
 
 # Ignore `bin` dir
 bin/
 # or
 */bin/*
-
+/build
+build/
+*/build/*
 # Unignore all `.jar` in `bin` dir
 !*/bin/*.jar
 
