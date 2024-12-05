@@ -50,10 +50,7 @@ void destroy_array(dyn_array* arr) {
 }
 
 dyn_array_error_t append(dyn_array* arr, int value) {
-  if (!arr) {
-    set_last_error(DYN_ARRAY_ERR_NULL_POINTER);
-    return DYN_ARRAY_ERR_NULL_POINTER;
-  }
+  if (!arr) { return set_last_error(DYN_ARRAY_ERR_NULL_POINTER); }
   if (arr->size >= arr->capacity) {
     size_t new_capacity = arr->capacity * 2;
     int* new_data = realloc(arr->data, new_capacity * sizeof(int));
