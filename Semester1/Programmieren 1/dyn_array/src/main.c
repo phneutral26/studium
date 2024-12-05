@@ -18,7 +18,7 @@ int main() {
 
     int value;
     if (get(arr, 1, &value) == DYN_ARRAY_SUCCESS) {
-        printf("Element at index 1: %d\n", value);
+        printf("Element am index 1: %d\n", value);
     }
 
     set(arr, 1, 50);
@@ -26,7 +26,7 @@ int main() {
     print_array(arr);
 
     remove_at(arr, 0);
-    printf("Array nach dem Element am Index 0 gelöscht wurde:\n");
+    printf("Array nachdem Element am Index 0 gelöscht wurde:\n");
     print_array(arr);
 
     printf("Array 'size': %zu\n", size(arr));
