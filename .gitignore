@@ -15,13 +15,15 @@
 *.o
 *.ko
 
-# Ignore `bin` dir
+# Ignore dirs
 bin/
 # or
 */bin/*
 /build
 build/
 */build/*
+subprojects/
+subproject/
 # Unignore all `.jar` in `bin` dir
 !*/bin/*.jar
 
