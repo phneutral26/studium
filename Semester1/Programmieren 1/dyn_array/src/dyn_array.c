@@ -5,9 +5,9 @@
 #include <string.h>
 
 struct dyn_array {
-  int* data;        // Pointer auf die gespeicherten Elemente
-  size_t size;      // Anzahl an gespeicherten Elemente
-  size_t capacity;  // Kapazität des Arrays
+  int* data;
+  size_t size;
+  size_t capacity;
 };
 
 static dyn_array_error_t last_error = DYN_ARRAY_SUCCESS;
